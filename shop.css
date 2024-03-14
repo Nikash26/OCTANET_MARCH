@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(189, 111, 23),rgb(231, 229, 228));  
+    background-position: center;
+    background-size: cover;  
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.icon .heading{
+    color: #fff;
+    font-size: 69px;
+}
+span{
+    color: crimson;
+}
+.ul li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+.ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+.ul li a:hover{
+    color: crimson;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.title{
+    font-size: 55px;
+    color: #fff;
+    font-weight: 600;
+}
+.home p{
+    color: lemonchiffon;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.home button{
+    height: 40px;
+    color: #fff;
+    background: crimson;
+    font-size: 22px;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.home button:hover{
+    background: none;
+    border: 2px solid crimson;
+}
+.icon img{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+   left: 23cm;
+   top: 7cm;
+
+
+}
