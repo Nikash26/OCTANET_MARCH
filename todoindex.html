@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>To do List</title>
+    <link rel="stylesheet" href="todostyles.css">
+</head>
+<body>
+    <div class="body1">
+        <div class="todo">
+            <div class="header">
+          <h1 class="head">TO DO LIST </h1>
+          <div class="row">
+            <input type="text" id="textCon"  placeholder="ENTER A TASK">
+            <button id="addBut" onclick="addTask()"> ADD </button>
+          </div>
+            </div>
+            <div class="bodyofapp">
+       <ul id="tasks">
+       
+       </ul>
+            </div>
+            
+            <div class="bottom">
+            
+            <button onclick="clearAll()">Clear</button>
+            <h1 class="hhh">Your Tasks:<span id="notasks"></span></h1>
+            <h1 class="hhh">Tasks Completed:<span id="completedtasks"></span></h1>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
